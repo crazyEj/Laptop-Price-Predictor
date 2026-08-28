@@ -12,3 +12,11 @@ A machine learning project for predicting laptop prices from hardware and produc
 	```
 
 3. Use the notebooks or application in `app/` to explore the data and generate predictions.
+
+## Project Structure
+
+- `app/` contains the prediction application.
+- `data/` contains raw and processed datasets.
+- `models/` stores trained model files.
+- `notebooks/` contains exploratory analysis and experiments.
+- `src/` contains reusable project code.
