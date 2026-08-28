@@ -1,0 +1,64 @@
+# ==== Python ====
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# ==== Virtual Environments ====
+venv/
+.venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+.python-version
+
+# ==== Jupyter Notebook ====
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# ==== Data & Model Artifacts ====
+# Keep raw/processed data & trained models out of git history —
+# they're large, binary, and regenerable from source scripts.
+data/raw/*
+data/processed/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+models/*.pkl
+models/*.joblib
+!models/.gitkeep
+
+# ==== Environment / Secrets ====
+.env
+.env.local
+*.env
+
+# ==== IDE / Editor ====
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+
+# ==== Streamlit ====
+.streamlit/secrets.toml
+
+# ==== OS ====
+Thumbs.db
